@@ -3,15 +3,50 @@
     <head>
         <meta charset="utf-8"> 
         <title>Strona główna</title>
-    </head>
-    <body style="background-image: url(https://img.freepik.com/premium-vector/cat-seamless-pattern-kitten-sitting-cartoon-character_71328-1719.jpg)">
-        <header style="
-            background-color: cadetblue;
+
+        <style>
+            body {
+                margin: 10 px">
+
+            }
+
+            header {
+
+                  background-color: cadetblue;
             border: 5px solid rgb(160, 84, 143);
             padding: 15 px;
-            margin: 10 px">
+            margin: 10 px"
+            }
+
+
+            .link {
+                display:inline-block;
+                border: 1px solid black;
+                padding: 5px;
+                margin: 5px;
+                text-decoration: none;
+                background-color: blueviolet;
+                color:white;
+                border-radius: 10px
+                    }
+
+                    .link:hover{
+                        background-color: rgb(160, 84, 143);
+                        transition-duration: 0,3;
+                    }
+
+        </style>
+    </head>
+    <body style="background-image: url(https://img.freepik.com/premium-vector/cat-seamless-pattern-kitten-sitting-cartoon-character_71328-1719.jpg)">
+        <header> 
+           
             <h1>Strona dla początkujących</h1>
         </header>
+    <a class="link" href="podstrona.html"> Link do podstrony</a>
+    <br>
+    <button onclick="location.href='podstrona'"> Button do podstrony</button>
+
+
         <div style="
             border: 6px solid black;
             padding:10px;
@@ -47,7 +82,7 @@
         ">
         <img src="grafika/company-7759278_1280.png" alt="logo" style="width:10%;">
         
-
+    
         </footer>
     </body>
 </html>
