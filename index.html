@@ -35,6 +35,14 @@
                         transition-duration: 0,3;
                     }
 
+                    .flexbox{
+                        display:flex; 
+                        flex-wrap: wrap;
+                        background-color: beige;
+                        justify-content: center;
+                    }
+                    
+
         </style>
     </head>
     <body style="background-image: url(https://img.freepik.com/premium-vector/cat-seamless-pattern-kitten-sitting-cartoon-character_71328-1719.jpg)">
@@ -42,10 +50,11 @@
            
             <h1>Strona dla początkujących</h1>
         </header>
-    <a class="link" href="podstrona.html"> Link do podstrony</a>
-    <br>
-    <button onclick="location.href='podstrona'"> Button do podstrony</button>
 
+        <div class="flexbox">
+    <a class="link" href="podstrona.html"> Link do podstrony</a>
+    <button onclick="location.href='podstrona'"> Button do podstrony</button>
+        </div>
 
         <div style="
             border: 6px solid black;
