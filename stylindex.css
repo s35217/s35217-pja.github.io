@@ -1,0 +1,38 @@
+    body {
+                margin: 10 px">
+
+            }
+
+            header {
+
+                  background-color: cadetblue;
+            border: 5px solid rgb(160, 84, 143);
+            padding: 15 px;
+            margin: 10 px"
+            }
+
+
+            .link {
+                display:inline-block;
+                border: 1px solid black;
+                padding: 5px;
+                margin: 5px;
+                text-decoration: none;
+                background-color: blueviolet;
+                color:white;
+                border-radius: 10px
+                    }
+
+                    .link:hover{
+                        background-color: rgb(160, 84, 143);
+                        transition-duration: 0,3;
+                    }
+
+                    .flexbox{
+                        display:flex; 
+                        flex-wrap: wrap;
+                        background-color: beige;
+                        justify-content: center;
+                    }
+                    .paragraf {font-family: 'Courier New', Courier, monospace;}
+                    
