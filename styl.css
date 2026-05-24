@@ -23,7 +23,7 @@ p {
 }
 .text {
     grid-area: text;
-     padding: 40px;
+     padding: 20px;
     color: white;
     font-size: 20px;
     text-align: justify;
@@ -66,15 +66,31 @@ p {
         }
 
     .fabuła_container {
-    display: grid;
-    grid-template-columns: 75% 25%;
-    align-items: center;
-    gap: 20px;
+    display: flex;
+    align-items: stretch;
+    gap: 30px;
+    width: 95%;
+     margin: 20px auto;
+     color: white;
+    font-size: 20px;
+    text-align: justify;
+    }
+
+    .fabuła_container p {
+        flex: 3;
+    line-height: 1.6;
+    margin: 0;
     }
 
     .fabuła_img {
+        flex: 1;
+        display: flex;
+    }
+
+    .fabuła_img img {
         width: 100%;
-        display: block;
+        height: 100%;
+        object-fit: cover;
     }
 
 
