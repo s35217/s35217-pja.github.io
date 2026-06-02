@@ -68,18 +68,25 @@ p {
     .fabuła_container {
     gap: 30px;
     width: 95%;
-     margin: 20px auto;
+    margin: 20px auto;
     padding: 20px;
-    min-height: 200px;
-    
+    min-height: 400px;
+
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 12px;
     }
 
     .fabuła_container p {
     line-height: 1.6;
     margin: 0;
     color: white;
-    font-size: 20px;
-    text-align: justify;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 12px;
     }
 
     .fabuła_grid {
@@ -88,14 +95,6 @@ p {
     gap: 30px;
     width: 95%;
     margin: 20px auto;
-    }
-
-    .fabuła_img {
-    background-size: cover;
-     background-position: center;
-     min-height: 200px;
-        border-radius: 15px;
-
     }
 
     .footer {
