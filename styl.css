@@ -23,7 +23,7 @@ p {
 }
 .text {
     grid-area: text;
-     padding: 20px;
+     padding: 120px;
     color: white;
     font-size: 20px;
     text-align: justify;
@@ -42,7 +42,7 @@ p {
    text-decoration: none;
    margin: 10px 15px;
    transition-duration: 0.4s;
-   width: 400px; height:400px;
+   width: 550px; height:550px;
         }
 
         .button:hover{
