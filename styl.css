@@ -60,7 +60,7 @@ p {
  }
 
 .button {
-   color: rgb(221, 222, 200);
+   color: rgb(58, 58, 58);
    text-align: center;
     font-size: 50px;
     font-family: 'Bebas Neue', cursive;
@@ -72,6 +72,8 @@ p {
    margin: 10px 15px;
    transition-duration: 0.4s;
    width: 550px; height:550px;
+   border: 3px solid rgb(0, 0, 0);
+   cursor: pointer;
         }
 
         .button:hover{
@@ -93,6 +95,7 @@ p {
    width: 400px; height:550px;
    transition-duration: 0.3;
    border: 3px solid rgb(0, 0, 0);
+   cursor: pointer;
         }
 
         .postacie_button:hover{
@@ -173,6 +176,33 @@ p {
         transform: translateY(-80px);
         opacity: 0;
     }
+}
+
+.fanart_form {
+     width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: rgb(221, 222, 200);
+     font-family: 'Arial', sans-serif;
+}
+
+.fanart_form input,
+.fanart_form textarea {
+
+    padding: 5px;
+    font-size: 16px;
+}
+
+.fanart_form button {
+    padding: 12px;
+    font-size: 20px;
+    background-color: rgb(50, 67, 49);
+    color: rgb(221, 222, 200);
+    border-radius: 7px;
+    cursor: pointer;
+    border: 1px solid rgb(0, 0, 0);
 }
 
     .footer {
