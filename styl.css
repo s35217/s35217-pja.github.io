@@ -16,8 +16,6 @@ p {
     grid-template-rows: auto;
     grid-template-areas: "text text . .";
 
-    grid-area: image;
-     background-image: url('Grafika/web_g_tlou.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -99,7 +97,7 @@ p {
         }
 
         .postacie_button:hover{
-            color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
             transition-duration: 0.4s;   
         }
 
@@ -178,14 +176,44 @@ p {
     }
 }
 
+.fanart_grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 30px;
+    width: 95%;
+    margin: 40px auto;
+}
+
+.fanart_lewa {
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+}
+
+.fanart_prawa {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   color: rgb(221, 222, 200);
+   font-family: 'Arial', sans-serif;
+}
+
+.fanart_image {
+    width: 70%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+
 .fanart_form {
-     width: 600px;
-    margin: 0 auto;
+    width: 100%;
+    margin: 20px auto;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
     color: rgb(221, 222, 200);
-     font-family: 'Arial', sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 
 .fanart_form input,
