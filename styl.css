@@ -3,7 +3,7 @@ h1 {
     color:rgb(221, 222, 200);
     font-family:'Bebas Neue', cursive;
     text-align: center;
-    font-size: 40px;
+    font-size: 2,5rem;
 }
 
 p {  
@@ -22,9 +22,9 @@ p {
 }
 .początkowa_text {
     grid-area: text;
-     padding: 120px;
+     padding: 10%;
     color: white;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: justify;
 }
  .tekst_p {
@@ -49,9 +49,9 @@ p {
  }
 
 .button {
-   color: rgb(136, 156, 173);
+   color: rgb(255, 255, 255);
    text-align: center;
-    font-size: 50px;
+    font-size: 3rem;
     font-family: 'Bebas Neue', cursive;
     background-position: center;
     background-size: cover;
@@ -60,9 +60,11 @@ p {
    text-decoration: none;
    margin: 10px 15px;
    transition-duration: 0.4s;
-   width: 550px; height:550px;
+   width: 30vw; height:40vw;
+   min-width: 300px; min-height: 300px;
    border: 3px solid rgb(0, 0, 0);
    cursor: pointer;
+   text-shadow: 2px 2px 6px black;
         }
 
         .button:hover{
@@ -73,7 +75,7 @@ p {
 .postacie_button {
    color: rgb(221, 222, 200);
    text-align: center;
-    font-size: 50px;
+    font-size: 3rem;
     font-family: 'Bebas Neue', cursive;
     background-position: center;
     background-size: cover;
@@ -81,7 +83,8 @@ p {
    padding: 150px 100px;
    text-decoration: none;
    margin: 10px 15px;
-   width: 400px; height:550px;
+   width: 30vw; height: 35vw;
+   min-width: 200px; min-height: 300px;
    border: 2px solid rgb(50, 67, 49);
    cursor: pointer;
    transition-duration: 0.4s; 
@@ -190,8 +193,8 @@ p {
 }
 
 .fanart_image {
-    width: 70%;
-    height: 400px;
+    max-width: 400px;
+    height: 30vw;
     object-fit: cover;
     border-radius: 12px;
 }
